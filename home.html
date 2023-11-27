@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cozy Bakery Sweets</title>
+  <link rel="stylesheet" href="home.css"> <!-- Link your CSS file here -->
+  
+
+  <style>
+    /* Additional styles for the header image and content */
+    header {
+      position: relative;
+      text-align: center;
+      z-index: 2;
+    }
+    
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    nav {
+      position: absolute;
+      top: 20px; /* Adjust as needed to position the navigation */
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 1;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: #000;
+    }
+    
+    nav ul li a:hover {
+      background-color: #555;
+      color: pink;
+    }
+    
+    /* Styles for the Featured Products section */
+    .featured-products {
+      text-align: center;
+      padding: 50px 0;
+      max-width: 1200px; /* Adjust maximum width */
+      margin: 0 auto; /* Center the section */
+    }
+    
+    .product {
+      display: inline-block;
+      margin: 20px;
+      text-align: left;
+      width: 30%; /* Adjust width of each product */
+    }
+    
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Styles for the footer */
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+    }
+    
+    .footer-info {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    body {
+  background-color: pink;
+}
+  </style>
+
+</head>
+
+
+<body>
+
+    <!-- Header Section with Image -->
+    <header>
+      <img src="images/logo2.png" alt="Bakery Header Image">
+  
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="menu.html">Menu</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <!-- Main Content Section -->
+    <main>
+      <section class="hero">
+        <h1>Welcome to your friendly neighborhood bakery!</h1>
+        <p>Indulge in our freshly baked treats and enjoy!</p>
+        <!-- Additional content for the homepage -->
+      </section>
+  
+<!-- Featured Products Section -->
+<section class="featured-products">
+    <h2>Featured Products</h2>
+
+    <div class="product">
+      <img src="images/product1.jpeg" alt="Bento Cakes">
+      <h3>Bento Cakes</h3>
+      <p>Description of Product 1.</p>
+    </div>
+
+    <div class="product">
+      <img src="images/product2.jpeg" alt="Holiday Cake Pops">
+      <h3>Holiday Cake Pops</h3>
+      <p>Description of Product 2.</p>
+    </div>
+
+    <div class="product">
+      <img src="images/product3.jpeg" alt="Gingerbread Cookies">
+      <h3>Gingerbread Cookies</h3>
+      <p>Description of Product 3.</p>
+    </div>
+  </section>
+
+      <!-- Other sections or content for the homepage -->
+    </main>
+  
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-info">
+            <h3>Cozy Bakery Sweets</h3>
+            <p>Address: 123 Bakery Street, City, Country</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Email: info@bakery.com</p>
+            <p>Follow us on social media: 
+              <a href="#">Facebook</a>, 
+              <a href="#">Instagram</a>, 
+              <a href="#">Twitter</a>
+            </p>
+          </div>
+        </footer>
+    </footer>
+  
+  </body>
+  </html>
